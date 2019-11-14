@@ -25,7 +25,7 @@
         var rightNumbers = dodger.style.left.replace('px', '')
         var left = parseInt(rightNumbers, 10)
 
-        if (dodger.style.right > 0) {
+        if (left > 0) {
           dodger.style.right = `${left + 10}px`
         }
       }
